@@ -1,29 +1,29 @@
 <form action="/" method="POST">
 
-	<p><label for="username">Ваше имя:</label></p>
-	<p><input type="text" name="username" value="<%= @username %>"></p>
+  <p><label for="username">Ваше имя:</label></p>
+  <p><input type="text" name="username" value="<%= @username %>"></p>
 
-	<p><label for="phone">Телефон:</label></p>
-	<p><input type="text" name="phone" value="<%= @phone %>"></p>
+  <p><label for="phone">Телефон:</label></p>
+  <p><input type="text" name="phone" value="<%= @phone %>"></p>
 
-	<p><label for="email">E-mail:</label></p>
-	<p><input type="text" name="email" value="<%= @email %>"></p>
+  <p><label for="email">E-mail:</label></p>
+  <p><input type="text" name="email" value="<%= @email %>"></p>
 
-	<p><label for="option">Выбранная опция:</label></p>
+  <p><label for="option">Выбранная опция:</label></p>
 
-	<p>
-		<select name="option">
-			<option value="" selected>Выбрать опцию...</option>
-			<option value="Опция 1">Опция 1</option>
-			<option value="Опция 2">Опция 2</option>
-			<option value="Опция 3">Опция 3</option>
-		</select>
-	</p>
+  <p>
+    <select name="option">
+      <option value="" selected>Выбрать опцию...</option>
+      <option value="Опция 1">Опция 1</option>
+      <option value="Опция 2">Опция 2</option>
+      <option value="Опция 3">Опция 3</option>
+    </select>
+  </p>
 
-	<p><label for="comment">Комментарий к заказу:</label></p>
-	<p><textarea rows="10" cols="45" name="comment" value="<%= @comment %>"></textarea></p>
+  <p><label for="comment">Комментарий к заказу:</label></p>
+  <p><textarea rows="10" cols="45" name="comment" value="<%= @comment %>"></textarea></p>
 
-	<p><input type="submit" value="Отправить заказ"></p>
+  <p><input type="submit" value="Отправить заказ"></p>
 
 </form>
 
